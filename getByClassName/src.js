@@ -21,7 +21,7 @@
                     if (tag != undefined) {
                         var tag_parent = elements[i].childNodes;
                         for (x = 0; x < tag_parent.length; x++) { //Another for loop to test all of the element's child nodes
-                            if (search.test(tag_parent[x].className)) ele_array.push(elements[i]); //Test if the class name equals the class name to look for and put those elements into the empty array
+                            if (search.test(tag_parent[x].className)) ele_array.push(tag_parent[x]); //Test if the class name equals the class name to look for and put those elements into the empty array
                         }
                     } else {
                         if (search.test(elements[i].className)) ele_array.push(elements[i]); //If no tag name is defined, return the elements that have the class name
