@@ -1,3 +1,7 @@
+/*
+*getByClassName - Written by DominickA
+*https://github.com/DominickA/Miscellaneous/blob/master/getByClassName/
+*/
 (function () {
     var getByClassName = function (cname, tag) {
             if (document.getElementsByClassName) { //Check to see if the browser supports document.getElementsByClassName
