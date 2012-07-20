@@ -27,7 +27,7 @@
                     var search = new RegExp("(^|\\s)" + cname + "(\\s|$)"); //RegExp to split multiple class names for testing
                     if (tag != undefined) {
                         if (direct == true) {
-                            if (search.test(elements.className)) ele_array.push(elements[i]);
+                            if (search.test(elements[i].className)) ele_array.push(elements[i]);
                         } else {
                             var tag_parent = elements[i].childNodes;
                             for (x = 0; x < tag_parent.length; x++) { //Another for loop to test all of the element's child nodes
