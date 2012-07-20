@@ -13,7 +13,9 @@ $class(class, tag, direct); //Returns all div tags who have the class name of 'c
 ```
 
 Class: The class name enclosed with quotation marks of the elements you wish to select.
+
 Tag: The tag name enclosed with quotation marks that is a parent node of the element with the class name you wish to select. Syntax in CSS would be: div classname
+
 Direct: Either leave this blank, or put true without quotation marks. If this is true, then you will select all tag names with the class you are looking for. Syntax in CSS would be: div.classname
 
 Examples:
