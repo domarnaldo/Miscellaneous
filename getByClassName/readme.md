@@ -9,7 +9,7 @@ getByClassName also supports modern browsers by testing whether or not the brows
 
 Syntax:
 ```javascript
-$class(class, tag, direct); //Returns all div tags who have the class name of 'classname'
+$class(class, tag, direct); 
 ```
 
 Class: The class name enclosed with quotation marks of the elements you wish to select.
